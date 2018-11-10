@@ -9,6 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "main": "src/app",
+  "typings": "src/app",
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.1.0",

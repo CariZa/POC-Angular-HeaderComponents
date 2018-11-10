@@ -12,6 +12,9 @@ import { RedHeaderComponent } from '../components/red-header/red-header.componen
   imports: [
     BrowserModule
   ],
+  exports: [
+    RedHeaderComponent
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
