@@ -4,3 +4,4 @@
 export * from './public_api';
 export { BlueHeaderComponent as ɵa } from './src/app/modules/components/blue-header/blue-header.component';
 export { RedHeaderComponent as ɵb } from './src/app/modules/components/red-header/red-header.component';
+export { YellowHeaderComponent as ɵc } from './src/app/modules/components/yellow-header/yellow-header.component';

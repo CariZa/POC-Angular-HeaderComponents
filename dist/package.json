@@ -1,6 +1,6 @@
 {
   "name": "header-components",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "private": false,
   "dependencies": {
     "@angular/animations": "^6.1.0",
