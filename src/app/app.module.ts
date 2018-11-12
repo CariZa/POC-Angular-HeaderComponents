@@ -1,19 +1,20 @@
-import { BrowserModule } from '@angular/platform-browser';
+
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { RedHeaderComponent } from '../components/red-header/red-header.component';
+import { HeaderModule } from './modules/header/header.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RedHeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HeaderModule
   ],
   exports: [
-    RedHeaderComponent
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
