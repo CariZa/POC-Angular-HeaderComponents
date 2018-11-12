@@ -1,3 +1,4 @@
+import { YellowHeaderComponent } from './../components/yellow-header/yellow-header.component';
 import { BlueHeaderComponent } from './../components/blue-header/blue-header.component';
 import { RedHeaderComponent } from './../components/red-header/red-header.component';
 
@@ -12,11 +13,13 @@ import { CommonModule } from '@angular/common';
   ],
   declarations: [
     BlueHeaderComponent,
-    RedHeaderComponent
+    RedHeaderComponent,
+    YellowHeaderComponent
   ],
   exports: [
     BlueHeaderComponent,
-    RedHeaderComponent
+    RedHeaderComponent,
+    YellowHeaderComponent
   ]
 })
 export class HeaderModule { }
