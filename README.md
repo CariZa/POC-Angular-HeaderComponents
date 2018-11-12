@@ -107,12 +107,8 @@ Prepare package
 
 
 
-
-
-
-
 # Refs
 
-https://www.youtube.com/watch?v=4u9_kdkvTsc
+https://medium.com/@nikolasleblanc/building-an-angular-4-component-library-with-the-angular-cli-and-ng-packagr-53b2ade0701e
 
 
