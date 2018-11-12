@@ -1,5 +1,5 @@
 {
-  "name": "my-component-library",
+  "name": "header-components",
   "version": "0.0.1",
   "private": false,
   "dependencies": {
@@ -39,14 +39,14 @@
     "tslint": "~5.11.0",
     "typescript": "~2.9.2"
   },
-  "main": "bundles/my-component-library.umd.js",
-  "module": "fesm5/my-component-library.js",
-  "es2015": "fesm2015/my-component-library.js",
-  "esm5": "esm5/my-component-library.js",
-  "esm2015": "esm2015/my-component-library.js",
-  "fesm5": "fesm5/my-component-library.js",
-  "fesm2015": "fesm2015/my-component-library.js",
-  "typings": "my-component-library.d.ts",
-  "metadata": "my-component-library.metadata.json",
+  "main": "bundles/header-components.umd.js",
+  "module": "fesm5/header-components.js",
+  "es2015": "fesm2015/header-components.js",
+  "esm5": "esm5/header-components.js",
+  "esm2015": "esm2015/header-components.js",
+  "fesm5": "fesm5/header-components.js",
+  "fesm2015": "fesm2015/header-components.js",
+  "typings": "header-components.d.ts",
+  "metadata": "header-components.metadata.json",
   "sideEffects": false
 }
