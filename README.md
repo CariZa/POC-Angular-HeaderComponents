@@ -103,7 +103,7 @@ Prepare package
 
     $ npm run packagr
     $ cd ./dist
-    $ npm package
+    $ npm pack
 
 
 
