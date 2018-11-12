@@ -106,6 +106,24 @@ Prepare package
     $ npm pack
 
 
+## Install in another angular app
+
+Then to be able to use is inside anothe angular app, this is one approach:
+
+Update package.json to download the github files via the peerDependencies and then install from downloaded node_modules folder:
+
+    {
+        ...
+        "peerDependencies": {
+            "pre-header-components": "git+ssh://git@github.com/CariZa/POC-Angular-HeaderComponents.git"
+        },
+        "dependencies": {
+            ...
+            "header-components": "file:node_modules/header-components/header-components-0.0.1.tgz",
+            ...
+        }
+    }
+
 
 # Refs
 
